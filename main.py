@@ -95,6 +95,37 @@ Pagado con Nro de tarjeta
 
 
 """
+
+
+def menu_filtros():
+    print("Desea filtrar por:")
+    print("1 - Precio")
+    print("2 - Medio de transporte")
+    print("3 - Comida")
+    print("4 - No requiero filtrar, continuar con la compra")
+    print("5 - Salir")
+
+    opcion = int(input("Selecciona una opción: "))
+
+    if opcion == 1:
+        print('Hola')
+        menu_filtros()
+    elif opcion == 2:
+        print('Hola')
+        menu_filtros()
+    elif opcion == 3:
+        print('Hola')
+        menu_filtros()
+    elif opcion == 4:
+        print('Hola')
+    elif opcion == 5:
+        print('Hola')
+    else:
+        print("Opción inválida. Por favor, selecciona una opción válida.")
+
+
+
+
 def listarPaquetesTuristicos(paquetes,titulos):
     cant = 0
     listaDePaquetes = []
